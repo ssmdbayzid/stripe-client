@@ -5,115 +5,78 @@ const payment = () => {
     const cartItems = [
         {
           id: 1,
-          userId: 1,
-          date: "2020-03-02T00:00:00.000Z",
-          products: [
-            {
-              productId: 1,
-              quantity: 4
-            },
-            {
-              productId: 2,
-              quantity: 1
-            },
-            {
-              productId: 3,
-              quantity: 6
-            }
-          ],
-          __v: 0
+          name: "iPhone 9",
+          desc: "An apple mobile which is nothing like apple",
+          price: 549,
+          cartQuantity: 2,
+          discountPercentage: 12.96,
+          rating: 4.69,
+          stock: 94,
+          brand: "Apple",
+          category: "smartphones",
+          image: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",    
         },
         {
           id: 2,
-          userId: 1,
-          date: "2020-01-02T00:00:00.000Z",
-          products: [
-            {
-              productId: 2,
-              quantity: 4
-            },
-            {
-              productId: 1,
-              quantity: 10
-            },
-            {
-              productId: 5,
-              quantity: 2
-            }
-          ],
-          __v: 0
-        },
+          name: "iPhone X",
+          desc: "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          price: 899,
+          cartQuantity: 4,
+          discountPercentage: 17.94,
+          rating: 4.44,
+          stock: 34,
+          brand: "Apple",
+          category: "smartphones",
+          image: "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+        },    
         {
           id: 3,
-          userId: 2,
-          date: "2020-03-01T00:00:00.000Z",
-          products: [
-            {
-              productId: 1,
-              quantity: 2
-            },
-            {
-              productId: 9,
-              quantity: 1
-            }
-          ],
-          __v: 0
+          name: "Samsung Universe 9",
+          desc: "Samsung's new variant which goes beyond Galaxy to the Universe",
+          price: 1249,
+          cartQuantity: 1,
+          discountPercentage: 15.46,
+          rating: 4.09,
+          stock: 36,
+          brand: "Samsung",
+          category: "smartphones",
+          image: "https://i.dummyjson.com/data/products/3/thumbnail.jpg",    
+          desc: "OPPO F19 is officially announced on April 2021.",
+          price: 280,
+          cartQuantity: 4,
+          discountPercentage: 17.91,
+          rating: 4.3,
+          stock: 123,
+          brand: "OPPO",
+          category: "smartphones",
+          image: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",    
         },
-        {
+         {
           id: 4,
-          userId: 3,
-          date: "2020-01-01T00:00:00.000Z",
-          products: [
-            {
-              productId: 1,
-              quantity: 4
-            }
-          ],
-          __v: 0
+          name: "OPPOF19",
+          desc: "OPPO F19 is officially announced on April 2021.",
+          price: 280,
+          cartQuantity: 5,
+          discountPercentage: 17.91,
+          rating: 4.3,
+          stock: 123,
+          brand: "OPPO",
+          category: "smartphones",
+          image: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",    
         },
         {
           id: 5,
-          userId: 3,
-          date: "2020-03-01T00:00:00.000Z",
-          products: [
-            {
-              productId: 7,
-              quantity: 1
-            },
-            {
-              productId: 8,
-              quantity: 1
-            }
-          ],
-          __v: 0
-        },
-        {
-          id: 6,
-          userId: 4,
-          date: "2020-03-01T00:00:00.000Z",
-          products: [
-            {
-              productId: 10,
-              quantity: 2
-            },
-            {
-              productId: 12,
-              quantity: 3
-            }
-          ],
-          __v: 0
-        },
-        {
-          id: 7,
-          userId: 8,
-          date: "2020-03-01T00:00:00.000Z",
-          products: [
-            {
-              productId: 18,
-              quantity: 1
-            }
-          ],
-          __v: 0
+          name: "Huawei P30",
+          desc: "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          price: 499,
+          cartQuantity: 2,
+          discountPercentage: 10.58,
+          rating: 4.09,
+          stock: 32,
+          brand: "Huawei",
+          category: "smartphones",
+          image: "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+          
         }
       ]
     

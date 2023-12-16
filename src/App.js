@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+// import PaymentForm from './pages/PaymentForm';
+import Payment_Success from './pages/Payment_Success';
+import Payment_Cancel from './pages/Payment_Cancel';
+import { Route, Routes } from 'react-router';
+import Payment from './payment/Payment'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+    <Route path="/" element={< Payment />} />
+    <Route path="/success" element={<Payment_Success/>} />
+    <Route path="/cancel" element={<Payment_Cancel/> } />
+    
+    </Routes>
   );
-}
+};
 
 export default App;
+
